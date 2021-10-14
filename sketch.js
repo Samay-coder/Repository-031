@@ -3,12 +3,12 @@ const World = Matter.World
 const Bodies = Matter.Bodies
 
 function preload(){
-    lightning1 = loadImage("images/thunderbolt/1.png")
-    lightning2 = loadImage("images/thunderbolt/2.png")
-    lightning3 = loadImage("images/thunderbolt/3.png")
-    lightning4 = loadImage("images/thunderbolt/4.png")
+    lightning1 = loadImage("1.png")
+    lightning2 = loadImage("2.png")
+    lightning3 = loadImage("3.png")
+    lightning4 = loadImage("4.png")
 
-    Bat = loadImage("images/bat.png")
+    Bat = loadImage("bat.png")
 }
 
 var engine = Engine.create()

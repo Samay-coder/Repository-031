@@ -8,14 +8,14 @@ class Umbrella {
         this.body = Bodies.circle(x, y, this.r, options)
 
         this.r = r
-        this.animation = loadImage("images/Walking Frame/walking_1.png",
-                                    "images/Walking Frame/walking_2.png",
-                                    "images/Walking Frame/walking_3.png",
-                                    "images/Walking Frame/walking_4.png",
-                                    "images/Walking Frame/walking_5.png",
-                                    "images/Walking Frame/walking_6.png",
-                                    "images/Walking Frame/walking_1.png",
-                                    "images/Walking Frame/walking_8.png")
+        this.animation = loadImage("walking_1.png",
+                                   "walking_2.png",
+                                   "walking_3.png",
+                                   "walking_4.png",
+                                   "walking_5.png",
+                                   "walking_6.png",
+                                   "walking_1.png",
+                                   "walking_8.png")
 
         World.add(world,this.body)
     }
